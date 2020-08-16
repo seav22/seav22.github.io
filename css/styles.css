@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+.card img {
+    max-height: 232px;
+}
+
 * {
     font-family: "ProductSans";
 }
@@ -17,7 +21,47 @@
     box-shadow: 0px 2px 0px 0px #ccc;
 }
 
+#main {
+    background-image: url(../img/pattern.jpg);
+    z-index: 1;
+}
+
 #profile {
     border-radius: 100%;
     height: 30vh;
+}
+
+#whatsapp {
+    transition: all 200ms;
+}
+
+#instagram {
+    transition: all 200ms;
+}
+
+#github {
+    transition: all 200ms;
+}
+
+#whatsapp:hover {
+    color: #0F9D58 !important;
+    scale: 110%;
+}
+
+#instagram:hover {
+    color: #DB4437 !important;
+    scale: 110%;
+}
+
+#github:hover {
+    color: #F4B400 !important;
+    scale: 110%;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.card img {
+    object-fit: cover;
 }
